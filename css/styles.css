@@ -81,7 +81,9 @@ table {
   	font-style: normal;
 	font-weight: 600;
 	}
-
+	.navegation nav a:hover {
+ 	color: grey;
+	}
 	.lineaHr {
 		background-color: #f2f2f2;
 		height: 2px;
@@ -175,6 +177,7 @@ cursor: pointer;
 	background-image: linear-gradient(0deg,
     rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../assets/img/backgoundcolours.png');
 	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100vmax;
 	height: 100vh;
 	display: flex;
@@ -242,7 +245,7 @@ line-height: 35px;
 }
 
 .buttonP {
-	padding: 10px 30px 10px 30px;
+	padding: 10px 30px;
 	border-radius: 25px;
 	font-family: "Poppins", sans-serif;
 	font-style: normal;
@@ -253,6 +256,7 @@ line-height: 35px;
 .p1 {
 background-color: #ffc329;
 border: none;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
 }
 
 .p2 {
@@ -267,7 +271,6 @@ border: none;
 	width: 100vmax;
 	height: 100vh;
 	background-color: white;
-
 }
 
 .textoSecundario {
